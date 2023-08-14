@@ -20,7 +20,7 @@ To get started with this project, follow these steps:
 
 ## Usage
 
-# 1. Clone the repository:
+# Clone the repository:
 
 git clone https://github.com/abhigyan02/temperature-prediction.git
 cd temperature-prediction
@@ -31,12 +31,12 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-# 2. Prepare your data:
+# Prepare your data:
 
 Ensure your temperature data is in the format expected by the script.
 Modify the file path in the code to point to your data.
 
-# 3. Run
+# Run
 python temperature_prediction.py
 The script will output training progress and display the test set results, including a mean squared error score.
 
