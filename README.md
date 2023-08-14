@@ -9,7 +9,6 @@ This project focuses on predicting temperature values using a Long Short-Term Me
 - [Results](#results)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -18,6 +17,8 @@ Temperature prediction plays a crucial role in various fields, from weather fore
 ## Getting Started
 
 To get started with this project, follow these steps:
+
+## Usage
 
 # 1. Clone the repository:
 
@@ -39,12 +40,24 @@ Modify the file path in the code to point to your data.
 python temperature_prediction.py
 The script will output training progress and display the test set results, including a mean squared error score.
 
-# 4. Results
+## Results
 The LSTM model architecture is defined in the script, leveraging Keras for implementation.
 The model is trained on historical temperature data and evaluated on a test set.
 The test set predictions are visualized alongside the actual temperature data using Matplotlib.
 
 ![image](https://github.com/abhigyan02/temperature-prediction/assets/75851981/e2e3bdde-ce3f-4a89-943d-3a56b13a14f2)
 
-# 5. Contributing
+## Dependencies
+Python 3.x
+NumPy
+pandas
+Matplotlib
+scikit-learn
+Keras
+Install the required dependencies using the provided requirements.txt file:
+
+pip install -r requirements.txt
+
+
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to create a pull request.
